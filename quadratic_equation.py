@@ -12,3 +12,11 @@ def get_roots(a, b, c):
         return root1, None
     else:
         return None, None
+
+print ( 'введите значение переменных' )
+A = float( input( 'a: ' ) )
+B = float( input( 'b: ' ) )
+C = float( input( 'c: ' ) ) 
+
+R = get_roots( A, B, C )
+print ( 'x1,x2 =', R )
